@@ -31,9 +31,9 @@ public class MonkeyRect {
     }
 
     public ArrayList<Integer> getCenter() {
-        LinkedList<Integer> localLinkedList = new LinkedList<Integer>();
+        LinkedList<Integer> localLinkedList = new LinkedList<>();
         localLinkedList.add(this.left + (this.right - this.left) / 2);
         localLinkedList.add(this.top + (this.bottom - this.top) / 2);
-        return new ArrayList<Integer>(localLinkedList);
+        return new ArrayList<>(localLinkedList);
     }
 }

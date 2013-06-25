@@ -10,8 +10,8 @@ import java.util.logging.Logger;
 
 public class MonkeyRunnerOptions {
     private static final Logger LOG = Logger.getLogger(MonkeyRunnerOptions.class.getName());
-    private static String DEFAULT_MONKEY_SERVER_ADDRESS = "127.0.0.1";
-    private static int DEFAULT_MONKEY_PORT = 12345;
+    private static final String DEFAULT_MONKEY_SERVER_ADDRESS = "127.0.0.1";
+    private static final int DEFAULT_MONKEY_PORT = 12345;
     private final int port;
     private final String hostname;
     private final File scriptFile;

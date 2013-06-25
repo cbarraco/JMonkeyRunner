@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inherit-compiler-output="true">
+	<output-test url="file://$MODULE_DIR$/out/test/JMonkeyRunner"/>
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<lib name="C:\vcs\JMonkeyRunner\lib\chimpchat.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/chimpchat.jar!/"/>
+	</lib>
+	<lib name="C:\vcs\JMonkeyRunner\lib\guavalib.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/guavalib.jar!/"/>
+	</lib>
+	<lib name="C:\vcs\JMonkeyRunner\lib\ddmlib.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/ddmlib.jar!/"/>
+	</lib>
+	<lib name="C:\vcs\JMonkeyRunner\lib\sdklib.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/sdklib.jar!/"/>
+	</lib>
+</component>

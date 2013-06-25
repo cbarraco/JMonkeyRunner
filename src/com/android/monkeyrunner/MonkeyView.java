@@ -64,7 +64,7 @@ public class MonkeyView {
 
     public ArrayList<MonkeyView> getChildren() {
         List<IChimpView> localList = this.impl.getChildren();
-        ArrayList<MonkeyView> localArrayList = new ArrayList<MonkeyView>();
+        ArrayList<MonkeyView> localArrayList = new ArrayList<>();
         for (IChimpView localIChimpView : localList) {
             localArrayList.add(new MonkeyView(localIChimpView));
         }
@@ -73,7 +73,7 @@ public class MonkeyView {
 
     public ArrayList<Integer> getAccessibilityIds() {
         int[] arrayOfInt = this.impl.getAccessibilityIds();
-        ArrayList<Integer> localArrayList = new ArrayList<Integer>();
+        ArrayList<Integer> localArrayList = new ArrayList<>();
         for (int anArrayOfInt : arrayOfInt) {
             localArrayList.add(anArrayOfInt);
         }

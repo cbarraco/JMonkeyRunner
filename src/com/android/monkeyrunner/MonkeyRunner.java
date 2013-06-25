@@ -16,7 +16,7 @@ public class MonkeyRunner {
 
     public MonkeyRunner() {
         MonkeyRunnerOptions localMonkeyRunnerOptions = MonkeyRunnerOptions.processOptions(new String[]{});
-        TreeMap<String, String> localTreeMap = new TreeMap<String, String>();
+        TreeMap<String, String> localTreeMap = new TreeMap<>();
         localTreeMap.put("backend", localMonkeyRunnerOptions.getBackendName());
         chimpchat = ChimpChat.getInstance(localTreeMap);
     }
@@ -55,6 +55,7 @@ public class MonkeyRunner {
 
     /**
      * Pauses the current program for the specified number of seconds
+     *
      * @param seconds The number of seconds to pause
      */
     public void sleep(double seconds) {

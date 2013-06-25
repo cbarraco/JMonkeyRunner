@@ -6,69 +6,69 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db73cc92-3288-47b3-85da-d2d40d7a9d7d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AdbWinApi.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AdbWinUsbApi.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/adb.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/resources/inherit.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/chimpchat.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/ddmlib.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/guavalib.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/sdklib.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/JMonkeyRunner/JMonkeyRunner.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/JMonkeyTest/Main.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/YAM/com/android/monkeyrunner/MonkeyDevice.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/YAM/com/android/monkeyrunner/MonkeyFormatter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/YAM/com/android/monkeyrunner/MonkeyImage.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/YAM/com/android/monkeyrunner/MonkeyRect.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/YAM/com/android/monkeyrunner/MonkeyRunner.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/YAM/com/android/monkeyrunner/MonkeyRunnerOptions.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/YAM/com/android/monkeyrunner/MonkeyView.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JMonkeyTest/JMonkeyTest.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JMonkeyTest/src/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YAM.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YAM.ipr" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/YAM.iws" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/allclasses-frame.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/allclasses-noframe.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/com/android/monkeyrunner/MonkeyDevice.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/com/android/monkeyrunner/MonkeyFormatter.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/com/android/monkeyrunner/MonkeyImage.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/com/android/monkeyrunner/MonkeyRect.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/com/android/monkeyrunner/MonkeyRunner.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/com/android/monkeyrunner/MonkeyRunnerOptions.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/com/android/monkeyrunner/MonkeyView.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/com/android/monkeyrunner/package-frame.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/com/android/monkeyrunner/package-summary.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/com/android/monkeyrunner/package-tree.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/constant-values.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/deprecated-list.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/help-doc.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/index-files/index-1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/index-files/index-10.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/index-files/index-11.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/index-files/index-12.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/index-files/index-13.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/index-files/index-14.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/index-files/index-2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/index-files/index-3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/index-files/index-4.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/index-files/index-5.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/index-files/index-6.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/index-files/index-7.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/index-files/index-8.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/index-files/index-9.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/overview-tree.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/package-list" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/stylesheet.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/android/monkeyrunner/MonkeyDevice.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/android/monkeyrunner/MonkeyFormatter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/android/monkeyrunner/MonkeyImage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/android/monkeyrunner/MonkeyRect.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/android/monkeyrunner/MonkeyRunner.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/android/monkeyrunner/MonkeyRunnerOptions.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/android/monkeyrunner/MonkeyView.java" />
+    <list default="true" id="db73cc92-3288-47b3-85da-d2d40d7a9d7d" name="Default" comment="Added eclipse project files, changed name of project to">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/resources/background.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/resources/tab.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/resources/titlebar.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/resources/titlebar_end.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.classpath" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.project" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JMonkeyRunner.eml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JMonkeyRunner.iws" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JMonkeyRunner.userlibraries" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JMonkeyTest/.classpath" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JMonkeyTest/.project" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JMonkeyTest/JMonkeyTest.eml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/Main.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/overview-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/overview-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/package-tree.html" />
+      <change type="DELETED" beforePath="C:\vcs\JMonkeyRunner\YAM.iws" afterPath="" />
+      <change type="DELETED" beforePath="C:\vcs\JMonkeyRunner\doc\resources\inherit.gif" afterPath="" />
+      <change type="MOVED" beforePath="C:\vcs\JMonkeyRunner\YAM.iml" afterPath="$PROJECT_DIR$/JMonkeyRunner.iml" />
+      <change type="MOVED" beforePath="C:\vcs\JMonkeyRunner\YAM.ipr" afterPath="$PROJECT_DIR$/JMonkeyRunner.ipr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JMonkeyTest/JMonkeyTest.iml" afterPath="$PROJECT_DIR$/JMonkeyTest/JMonkeyTest.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/allclasses-frame.html" afterPath="$PROJECT_DIR$/doc/allclasses-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/allclasses-noframe.html" afterPath="$PROJECT_DIR$/doc/allclasses-noframe.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/android/monkeyrunner/MonkeyDevice.html" afterPath="$PROJECT_DIR$/doc/com/android/monkeyrunner/MonkeyDevice.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/android/monkeyrunner/MonkeyFormatter.html" afterPath="$PROJECT_DIR$/doc/com/android/monkeyrunner/MonkeyFormatter.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/android/monkeyrunner/MonkeyImage.html" afterPath="$PROJECT_DIR$/doc/com/android/monkeyrunner/MonkeyImage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/android/monkeyrunner/MonkeyRect.html" afterPath="$PROJECT_DIR$/doc/com/android/monkeyrunner/MonkeyRect.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/android/monkeyrunner/MonkeyRunner.html" afterPath="$PROJECT_DIR$/doc/com/android/monkeyrunner/MonkeyRunner.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/android/monkeyrunner/MonkeyRunnerOptions.html" afterPath="$PROJECT_DIR$/doc/com/android/monkeyrunner/MonkeyRunnerOptions.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/android/monkeyrunner/MonkeyView.html" afterPath="$PROJECT_DIR$/doc/com/android/monkeyrunner/MonkeyView.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/android/monkeyrunner/package-frame.html" afterPath="$PROJECT_DIR$/doc/com/android/monkeyrunner/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/android/monkeyrunner/package-summary.html" afterPath="$PROJECT_DIR$/doc/com/android/monkeyrunner/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/android/monkeyrunner/package-tree.html" afterPath="$PROJECT_DIR$/doc/com/android/monkeyrunner/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/constant-values.html" afterPath="$PROJECT_DIR$/doc/constant-values.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/deprecated-list.html" afterPath="$PROJECT_DIR$/doc/deprecated-list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/help-doc.html" afterPath="$PROJECT_DIR$/doc/help-doc.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-1.html" afterPath="$PROJECT_DIR$/doc/index-files/index-1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-10.html" afterPath="$PROJECT_DIR$/doc/index-files/index-10.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-11.html" afterPath="$PROJECT_DIR$/doc/index-files/index-11.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-12.html" afterPath="$PROJECT_DIR$/doc/index-files/index-12.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-13.html" afterPath="$PROJECT_DIR$/doc/index-files/index-13.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-14.html" afterPath="$PROJECT_DIR$/doc/index-files/index-14.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-2.html" afterPath="$PROJECT_DIR$/doc/index-files/index-2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-3.html" afterPath="$PROJECT_DIR$/doc/index-files/index-3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-4.html" afterPath="$PROJECT_DIR$/doc/index-files/index-4.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-5.html" afterPath="$PROJECT_DIR$/doc/index-files/index-5.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-6.html" afterPath="$PROJECT_DIR$/doc/index-files/index-6.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-7.html" afterPath="$PROJECT_DIR$/doc/index-files/index-7.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-8.html" afterPath="$PROJECT_DIR$/doc/index-files/index-8.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-9.html" afterPath="$PROJECT_DIR$/doc/index-files/index-9.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index.html" afterPath="$PROJECT_DIR$/doc/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/overview-tree.html" afterPath="$PROJECT_DIR$/doc/overview-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/package-list" afterPath="$PROJECT_DIR$/doc/package-list" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/stylesheet.css" afterPath="$PROJECT_DIR$/doc/stylesheet.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/monkeyrunner/MonkeyDevice.java" afterPath="$PROJECT_DIR$/src/com/android/monkeyrunner/MonkeyDevice.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/monkeyrunner/MonkeyFormatter.java" afterPath="$PROJECT_DIR$/src/com/android/monkeyrunner/MonkeyFormatter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/monkeyrunner/MonkeyRect.java" afterPath="$PROJECT_DIR$/src/com/android/monkeyrunner/MonkeyRect.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/monkeyrunner/MonkeyRunner.java" afterPath="$PROJECT_DIR$/src/com/android/monkeyrunner/MonkeyRunner.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/monkeyrunner/MonkeyRunnerOptions.java" afterPath="$PROJECT_DIR$/src/com/android/monkeyrunner/MonkeyRunnerOptions.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/android/monkeyrunner/MonkeyView.java" afterPath="$PROJECT_DIR$/src/com/android/monkeyrunner/MonkeyView.java" />
     </list>
     <ignored path="YAM.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -129,19 +129,70 @@
       <file leaf-file-name="MonkeyDevice.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/android/monkeyrunner/MonkeyDevice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="28" selection-start="2246" selection-end="2246" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#11029#11041#0" expanded="true" />
-              </folding>
+            <state line="16" column="25" selection-start="652" selection-end="652" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MonkeyFormatter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/android/monkeyrunner/MonkeyFormatter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="44" selection-start="527" selection-end="527" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MonkeyRunner.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/android/monkeyrunner/MonkeyRunner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="59" selection-start="672" selection-end="672" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MonkeyView.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/android/monkeyrunner/MonkeyView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="18" selection-start="501" selection-end="501" vertical-scroll-proportion="0.5">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MonkeyRect.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/android/monkeyrunner/MonkeyRect.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="13" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MonkeyRunnerOptions.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/android/monkeyrunner/MonkeyRunnerOptions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="29" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MonkeyImage.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/android/monkeyrunner/MonkeyImage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="23" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JMonkeyTest/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="31" selection-start="333" selection-end="333" vertical-scroll-proportion="0.5169713">
+            <state line="11" column="14" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -155,7 +206,6 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
-    <option name="LINE_SEPARATORS_CONVERSION" value="ASK" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -164,24 +214,24 @@
         <option value="$PROJECT_DIR$/src/com/android/monkeyrunner/controller/MonkeyController.java" />
         <option value="$PROJECT_DIR$/src/com/android/monkeyrunner/JythonUtils.java" />
         <option value="$PROJECT_DIR$/src/YAM.java" />
-        <option value="$PROJECT_DIR$/src/com/android/monkeyrunner/MonkeyFormatter.java" />
         <option value="$PROJECT_DIR$/src/com/android/monkeyrunner/ScriptRunner.java" />
         <option value="$PROJECT_DIR$/src/com/android/monkeyrunner/MonkeyRunnerStarter.java" />
         <option value="$PROJECT_DIR$/src/com/android/monkeyrunner/MonkeyImage.java" />
-        <option value="$PROJECT_DIR$/src/com/android/monkeyrunner/MonkeyRunnerOptions.java" />
-        <option value="$PROJECT_DIR$/src/com/android/monkeyrunner/MonkeyView.java" />
         <option value="$PROJECT_DIR$/JMonkeyTest/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/android/monkeyrunner/MonkeyRect.java" />
         <option value="$PROJECT_DIR$/src/com/android/monkeyrunner/MonkeyRunner.java" />
+        <option value="$PROJECT_DIR$/src/com/android/monkeyrunner/MonkeyView.java" />
+        <option value="$PROJECT_DIR$/src/com/android/monkeyrunner/MonkeyRect.java" />
         <option value="$PROJECT_DIR$/src/com/android/monkeyrunner/MonkeyDevice.java" />
+        <option value="$PROJECT_DIR$/src/com/android/monkeyrunner/MonkeyFormatter.java" />
+        <option value="$PROJECT_DIR$/src/com/android/monkeyrunner/MonkeyRunnerOptions.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="1912" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="width" value="1296" />
+    <option name="height" value="1010" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -215,27 +265,27 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="YAM" />
+              <option name="myItemId" value="JMonkeyRunner" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="YAM" />
+              <option name="myItemId" value="JMonkeyRunner" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="YAM" />
+              <option name="myItemId" value="JMonkeyRunner" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="YAM" />
+              <option name="myItemId" value="JMonkeyRunner" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="YAM" />
+              <option name="myItemId" value="JMonkeyRunner" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -249,11 +299,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="YAM" />
+              <option name="myItemId" value="JMonkeyRunner" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="YAM" />
+              <option name="myItemId" value="JMonkeyRunner" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -263,26 +313,31 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="YAM" />
+              <option name="myItemId" value="JMonkeyRunner" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="YAM" />
+              <option name="myItemId" value="JMonkeyRunner" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="JMonkeyTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="doc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YAM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -509,11 +564,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="1912" y="-8" width="1296" height="1010" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32839224" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -528,13 +583,13 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19575115" sideWeight="0.67105263" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19561689" sideWeight="0.67160773" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3990878" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32839224" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -635,51 +690,65 @@
         <state line="5" column="18" selection-start="169" selection-end="169" vertical-scroll-proportion="0.11441647" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/android/monkeyrunner/MonkeyFormatter.java">
+    <entry file="file://$PROJECT_DIR$/JMonkeyTest/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="0" selection-start="2032" selection-end="2032" vertical-scroll-proportion="0.90737563" />
+        <state line="11" column="14" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/android/monkeyrunner/MonkeyRunnerOptions.java">
+    <entry file="jar://$PROJECT_DIR$/lib/chimpchat.jar!/com/android/chimpchat/core/IChimpDevice.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/android/monkeyrunner/MonkeyView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="15" selection-start="1773" selection-end="1773" vertical-scroll-proportion="0.5368782" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/android/monkeyrunner/MonkeyRect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="1" selection-start="1136" selection-end="1136" vertical-scroll-proportion="0.81475127" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/android/monkeyrunner/MonkeyImage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="34" selection-start="403" selection-end="403" vertical-scroll-proportion="0.432247" />
+        <state line="54" column="1" selection-start="2598" selection-end="2598" vertical-scroll-proportion="0.9353612">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/android/monkeyrunner/MonkeyRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="15" selection-start="521" selection-end="521" vertical-scroll-proportion="0.24699828">
+        <state line="18" column="59" selection-start="672" selection-end="672" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/android/monkeyrunner/MonkeyImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="23" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/android/monkeyrunner/MonkeyDevice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="28" selection-start="2246" selection-end="2246" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#11029#11041#0" expanded="true" />
-          </folding>
+        <state line="16" column="25" selection-start="652" selection-end="652" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JMonkeyTest/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/android/monkeyrunner/MonkeyFormatter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="31" selection-start="333" selection-end="333" vertical-scroll-proportion="0.5169713">
+        <state line="16" column="44" selection-start="527" selection-end="527" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/android/monkeyrunner/MonkeyRunnerOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="29" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/android/monkeyrunner/MonkeyRect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="13" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/android/monkeyrunner/MonkeyView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="18" selection-start="501" selection-end="501" vertical-scroll-proportion="0.5">
           <folding />
         </state>
       </provider>

@@ -279,12 +279,12 @@ public class MonkeyDevice {
 
     public ArrayList<String> getPropertyList() {
         Collection<String> localCollection = this.impl.getPropertyList();
-        return new ArrayList<String>(localCollection);
+        return new ArrayList<>(localCollection);
     }
 
     public ArrayList<String> getViewIdList() {
         Collection<String> localCollection = this.impl.getViewIdList();
-        return new ArrayList<String>(localCollection);
+        return new ArrayList<>(localCollection);
     }
 
     public MonkeyView getViewById(String viewId) {
@@ -303,7 +303,7 @@ public class MonkeyDevice {
 
     public ArrayList<MonkeyView> getViewsByText(String str) {
         Collection<IChimpView> localCollection = this.impl.getViews(By.text(str));
-        ArrayList<MonkeyView> localArrayList = new ArrayList<MonkeyView>();
+        ArrayList<MonkeyView> localArrayList = new ArrayList<>();
         for (IChimpView localIChimpView : localCollection) {
             localArrayList.add(new MonkeyView(localIChimpView));
         }

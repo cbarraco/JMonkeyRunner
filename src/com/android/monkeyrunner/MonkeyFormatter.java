@@ -14,7 +14,7 @@ public class MonkeyFormatter extends Formatter {
 
     private static final SimpleDateFormat FORMAT = new SimpleDateFormat("yyMMdd HH:mm:ss.SSS");
 
-    private static Map<Level, String> LEVEL_TO_STRING_CACHE = Maps.newHashMap();
+    private static final Map<Level, String> LEVEL_TO_STRING_CACHE = Maps.newHashMap();
 
     private static String levelToString(Level paramLevel) {
         String str = (String) LEVEL_TO_STRING_CACHE.get(paramLevel);

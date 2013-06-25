@@ -7,7 +7,7 @@
     <artifact type="jar" name="JMonkeyRunner">
       <output-path>$PROJECT_DIR$/out/artifacts/JMonkeyRunner</output-path>
       <root id="archive" name="JMonkeyRunner.jar">
-        <element id="module-output" name="YAM" />
+        <element id="module-output" name="JMonkeyRunner" />
         <element id="file-copy" path="$PROJECT_DIR$/lib/chimpchat.jar" />
         <element id="file-copy" path="$PROJECT_DIR$/lib/guavalib.jar" />
         <element id="file-copy" path="$PROJECT_DIR$/lib/ddmlib.jar" />
@@ -184,14 +184,14 @@
   </component>
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/JMonkeyRunner.iml" filepath="$PROJECT_DIR$/JMonkeyRunner.iml" />
       <module fileurl="file://$PROJECT_DIR$/JMonkeyTest/JMonkeyTest.iml" filepath="$PROJECT_DIR$/JMonkeyTest/JMonkeyTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/YAM.iml" filepath="$PROJECT_DIR$/YAM.iml" />
     </modules>
   </component>
   <component name="ProjectResources">
     <default-html-doctype>http://www.w3.org/1999/xhtml</default-html-doctype>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" assert-keyword="true" jdk-15="true" project-jdk-name="1.6" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" assert-keyword="true" jdk-15="true" project-jdk-name="1.7" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
   <component name="VcsDirectoryMappings">
