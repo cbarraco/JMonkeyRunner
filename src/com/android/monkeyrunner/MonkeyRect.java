@@ -8,18 +8,18 @@ import java.util.logging.Logger;
 
 public class MonkeyRect {
     private static final Logger LOG = Logger.getLogger(MonkeyRect.class.getName());
-    private ChimpRect rect;
+    private ChimpRect chimpRect;
     public int left;
     public int top;
     public int right;
     public int bottom;
 
-    public MonkeyRect(ChimpRect paramChimpRect) {
-        this.rect = paramChimpRect;
-        this.left = paramChimpRect.left;
-        this.right = paramChimpRect.right;
-        this.top = paramChimpRect.top;
-        this.bottom = paramChimpRect.bottom;
+    public MonkeyRect(ChimpRect chimpRect) {
+        this.chimpRect = chimpRect;
+        this.left = chimpRect.left;
+        this.right = chimpRect.right;
+        this.top = chimpRect.top;
+        this.bottom = chimpRect.bottom;
     }
 
     public Integer getWidth() {
@@ -31,9 +31,9 @@ public class MonkeyRect {
     }
 
     public ArrayList<Integer> getCenter() {
-        LinkedList<Integer> localLinkedList = new LinkedList<>();
-        localLinkedList.add(this.left + (this.right - this.left) / 2);
-        localLinkedList.add(this.top + (this.bottom - this.top) / 2);
-        return new ArrayList<>(localLinkedList);
+        LinkedList<Integer> linkedList = new LinkedList<Integer>();
+        linkedList.add(this.left + (this.right - this.left) / 2);
+        linkedList.add(this.top + (this.bottom - this.top) / 2);
+        return new ArrayList<Integer>(linkedList);
     }
 }

@@ -11,65 +11,77 @@ import java.util.logging.Logger;
 
 public class MonkeyRunner {
 
+    public static final long DEFAULT_TIMEOUT = 9223372036854775807L;
     private static final Logger LOG = Logger.getLogger(MonkeyRunner.class.getCanonicalName());
     private static ChimpChat chimpchat;
 
     public MonkeyRunner() {
         MonkeyRunnerOptions localMonkeyRunnerOptions = MonkeyRunnerOptions.processOptions(new String[]{});
-        TreeMap<String, String> localTreeMap = new TreeMap<>();
+        TreeMap<String, String> localTreeMap = new TreeMap<String, String>();
         localTreeMap.put("backend", localMonkeyRunnerOptions.getBackendName());
         chimpchat = ChimpChat.getInstance(localTreeMap);
+    }
+
+    public static MonkeyImage loadImageFromFile(String filePath) {
+        IChimpImage chimpImage = ChimpImageBase.loadImageFromFile(filePath);
+        return new MonkeyImage(chimpImage);
     }
 
     public ChimpChat getChimpChat() {
         return chimpchat;
     }
 
+    /**
+     * Tries to make a connection between the monkeyrunner backend and the specified device or emulator.
+     *
+     * @return A MonkeyDevice instance for the device or emulator. Use this object to control and communicate with the device or emulator.
+     */
     public MonkeyDevice waitForConnection() {
-        long l = 9223372036854775807L;
-        IChimpDevice localIChimpDevice = chimpchat.waitForConnection(l, ".*");
-        return new MonkeyDevice(localIChimpDevice);
+        long defaultTimeoutLong = DEFAULT_TIMEOUT;
+        IChimpDevice chimpDevice = chimpchat.waitForConnection(defaultTimeoutLong, ".*");
+        return new MonkeyDevice(chimpDevice);
     }
 
+    /**
+     * Tries to make a connection between the monkeyrunner backend and the specified device or emulator.
+     *
+     * @param timeout  The number of seconds to wait for a connection.
+     * @return A MonkeyDevice instance for the device or emulator. Use this object to control and communicate with the device or emulator.
+     */
     public MonkeyDevice waitForConnection(double timeout) {
-        long l;
-        try {
-            l = (long) (timeout * 1000.0D);
-        } catch (Exception localPyException) {
-            l = 9223372036854775807L;
-        }
-        IChimpDevice localIChimpDevice = chimpchat.waitForConnection(l, ".*");
-        return new MonkeyDevice(localIChimpDevice);
+        return waitForConnection(timeout, ".*");
     }
 
+    /**
+     * Tries to make a connection between the monkeyrunner backend and the specified device or emulator.
+     *
+     * @param timeout  The number of seconds to wait for a connection.
+     * @param deviceId A regular expression that specifies the serial number of the device or emulator. See the topic Android Debug Bridge for a description of device and emulator serial numbers.
+     * @return A MonkeyDevice instance for the device or emulator. Use this object to control and communicate with the device or emulator.
+     */
     public MonkeyDevice waitForConnection(double timeout, String deviceId) {
-        long l;
+        long timeoutLong;
         try {
-            l = (long) (timeout * 1000.0D);
-        } catch (Exception localPyException) {
-            l = 9223372036854775807L;
+            timeoutLong = (long) (timeout * 1000.0D);
+        } catch (Exception e) {
+            timeoutLong = DEFAULT_TIMEOUT;
         }
-        IChimpDevice localIChimpDevice = chimpchat.waitForConnection(l, deviceId);
-        return new MonkeyDevice(localIChimpDevice);
+        IChimpDevice chimpDevice = chimpchat.waitForConnection(timeoutLong, deviceId);
+        return new MonkeyDevice(chimpDevice);
     }
 
     /**
      * Pauses the current program for the specified number of seconds
      *
-     * @param seconds The number of seconds to pause
+     * @param duration The number of seconds to pause
      */
-    public void sleep(double seconds) {
-        long l = (long) (seconds * 1000.0D);
+    public void sleep(double duration) {
+        long durationLong = (long) (duration * 1000.0D);
         try {
-            Thread.sleep(l);
-        } catch (InterruptedException localInterruptedException) {
-            LOG.log(Level.SEVERE, "Error sleeping", localInterruptedException);
+            Thread.sleep(durationLong);
+        } catch (InterruptedException e) {
+            LOG.log(Level.SEVERE, "Error sleeping", e);
         }
-    }
-
-    public static MonkeyImage loadImageFromFile(String filePath) {
-        IChimpImage localIChimpImage = ChimpImageBase.loadImageFromFile(filePath);
-        return new MonkeyImage(localIChimpImage);
     }
 
 }
