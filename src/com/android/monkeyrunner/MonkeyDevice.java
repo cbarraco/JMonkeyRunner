@@ -30,92 +30,107 @@ public class MonkeyDevice {
         return chimpDevice;
     }
 
+    /**
+     * Broadcasts an Intent to this device, as if the Intent were coming from an application. See Intent for more information about the arguments.
+     */
     public void broadcastIntent() {
-        String uri = null;
-        String action = null;
-        String data = null;
-        String mimetype = null;
-        Collection<String> categories = null;
-        Map<String, Object> extras = null;
-        String component = null;
-        int flags = 0;
-
-        this.chimpDevice.broadcastIntent(uri, action, data, mimetype, categories, extras, component, flags);
-    }
-
-    public void broadcastIntent(String uri) {
-        String action = null;
-        String data = null;
-        String mimetype = null;
-        Collection<String> categories = null;
-        Map<String, Object> extras = null;
-        String component = null;
-        int flags = 0;
-
-        this.chimpDevice.broadcastIntent(uri, action, data, mimetype, categories, extras, component, flags);
-    }
-
-    public void broadcastIntent(String uri, String action) {
-        String data = null;
-        String mimetype = null;
-        Collection<String> categories = null;
-        Map<String, Object> extras = null;
-        String component = null;
-        int flags = 0;
-
-        this.chimpDevice.broadcastIntent(uri, action, data, mimetype, categories, extras, component, flags);
-    }
-
-    public void broadcastIntent(String uri, String action, String data) {
-        String mimetype = null;
-        Collection<String> categories = null;
-        Map<String, Object> extras = null;
-        String component = null;
-        int flags = 0;
-
-        this.chimpDevice.broadcastIntent(uri, action, data, mimetype, categories, extras, component, flags);
-    }
-
-    public void broadcastIntent(String uri, String action, String data, String mimetype) {
-        Collection<String> categories = null;
-        Map<String, Object> extras = null;
-        String component = null;
-        int flags = 0;
-
-        this.chimpDevice.broadcastIntent(uri, action, data, mimetype, categories, extras, component, flags);
-    }
-
-    public void broadcastIntent(String uri, String action, String data, String mimetype, Collection<String> categories) {
-        Map<String, Object> extras = null;
-        String component = null;
-        int flags = 0;
-
-        this.chimpDevice.broadcastIntent(uri, action, data, mimetype, categories, extras, component, flags);
-    }
-
-    public void broadcastIntent(String uri, String action, String data, String mimetype, Collection<String> categories, Map<String, Object> extras) {
-        String component = null;
-        int flags = 0;
-
-        this.chimpDevice.broadcastIntent(uri, action, data, mimetype, categories, extras, component, flags);
-    }
-
-    public void broadcastIntent(String uri, String action, String data, String mimetype, Collection<String> categories, Map<String, Object> extras, String component) {
-        int flags = 0;
-        this.chimpDevice.broadcastIntent(uri, action, data, mimetype, categories, extras, component, flags);
+        broadcastIntent(null, null, null, null, null, null, null, 0);
     }
 
     /**
      * Broadcasts an Intent to this device, as if the Intent were coming from an application. See Intent for more information about the arguments.
      *
-     * @param uri        The URI for the Intent. (see Intent.setData()).
-     * @param action     The action for this Intent (see Intent.setAction()).
-     * @param data       The data URI for this Intent (see Intent.setData()).
-     * @param mimeType   The MIME type for the Intent (see Intent.setType()).
-     * @param categories An iterable data structure containing strings that define categories for this Intent (see Intent.addCategory()).
-     * @param extras     A dictionary of extra data for this Intent (see Intent.putExtra() for an example). The key for each dictionary item should be a string. The item's value can be any simple or structured data type.
-     * @param component  The component for this Intent (see ComponentName). Using this argument will direct the Intent to a specific class within a specific Android package.
-     * @param flags      An iterable data structure containing flags that control how the Intent is handled (see Intent.setFlags()).
+     * @param uri The URI for the Intent.
+     */
+    public void broadcastIntent(String uri) {
+        broadcastIntent(uri, null, null, null, null, null, null, 0);
+    }
+
+    /**
+     * Broadcasts an Intent to this device, as if the Intent were coming from an application. See Intent for more information about the arguments.
+     *
+     * @param uri    The URI for the Intent.
+     * @param action The action for this Intent.
+     */
+    public void broadcastIntent(String uri, String action) {
+        broadcastIntent(uri, action, null, null, null, null, null, 0);
+    }
+
+    /**
+     * Broadcasts an Intent to this device, as if the Intent were coming from an application. See Intent for more information about the arguments.
+     *
+     * @param uri    The URI for the Intent.
+     * @param action The action for this Intent.
+     * @param data   The data URI for this Intent.
+     */
+    public void broadcastIntent(String uri, String action, String data) {
+        broadcastIntent(uri, action, data, null, null, null, null, 0);
+    }
+
+    /**
+     * Broadcasts an Intent to this device, as if the Intent were coming from an application. See Intent for more information about the arguments.
+     *
+     * @param uri    The URI for the Intent.
+     * @param action The action for this Intent.
+     * @param data   The data URI for this Intent.
+     */
+    public void broadcastIntent(String uri, String action, String data, String mimetype) {
+        broadcastIntent(uri, action, data, mimetype, null, null, null, 0);
+    }
+
+    /**
+     * Broadcasts an Intent to this device, as if the Intent were coming from an application. See Intent for more information about the arguments.
+     *
+     * @param uri        The URI for the Intent.
+     * @param action     The action for this Intent.
+     * @param data       The data URI for this Intent.
+     * @param mimeType   The MIME type for the Intent.
+     * @param categories An iterable data structure containing strings that define categories for this Intent.
+     */
+    public void broadcastIntent(String uri, String action, String data, String mimeType, Collection<String> categories) {
+        broadcastIntent(uri, action, data, mimeType, categories, null, null, 0);
+    }
+
+    /**
+     * Broadcasts an Intent to this device, as if the Intent were coming from an application. See Intent for more information about the arguments.
+     *
+     * @param uri        The URI for the Intent.
+     * @param action     The action for this Intent.
+     * @param data       The data URI for this Intent.
+     * @param mimeType   The MIME type for the Intent.
+     * @param categories An iterable data structure containing strings that define categories for this Intent.
+     * @param extras     A dictionary of extra data for this Intent. The key for each dictionary item should be a string. The item's value can be any simple or structured data type.
+     */
+    public void broadcastIntent(String uri, String action, String data, String mimeType, Collection<String> categories, Map<String, Object> extras) {
+        broadcastIntent(uri, action, data, mimeType, categories, extras, null, 0);
+    }
+
+    /**
+     * Broadcasts an Intent to this device, as if the Intent were coming from an application. See Intent for more information about the arguments.
+     *
+     * @param uri        The URI for the Intent.
+     * @param action     The action for this Intent.
+     * @param data       The data URI for this Intent.
+     * @param mimeType   The MIME type for the Intent.
+     * @param categories An iterable data structure containing strings that define categories for this Intent.
+     * @param extras     A dictionary of extra data for this Intent. The key for each dictionary item should be a string. The item's value can be any simple or structured data type.
+     * @param component  The component for this Intent. Using this argument will direct the Intent to a specific class within a specific Android package.
+     */
+    public void broadcastIntent(String uri, String action, String data, String mimeType, Collection<String> categories, Map<String, Object> extras, String component) {
+        broadcastIntent(uri, action, data, mimeType, categories, extras, component, 0);
+    }
+
+    /**
+     * Broadcasts an Intent to this device, as if the Intent were coming from an application. See Intent for more information about the arguments.
+     *
+     * @param uri        The URI for the Intent.
+     * @param action     The action for this Intent.
+     * @param data       The data URI for this Intent.
+     * @param mimeType   The MIME type for the Intent.
+     * @param categories An iterable data structure containing strings that define categories for this Intent.
+     * @param extras     A dictionary of extra data for this Intent. The key for each dictionary item should be a string. The item's value can be any simple or structured data type.
+     * @param component  The component for this Intent. Using this argument will direct the Intent to a specific class within a specific Android package.
+     * @param flags      An iterable data structure containing flags that control how the Intent is handled
      */
     public void broadcastIntent(String uri, String action, String data, String mimeType, Collection<String> categories, Map<String, Object> extras, String component, int flags) {
         this.chimpDevice.broadcastIntent(uri, action, data, mimeType, categories, extras, component, flags);
@@ -227,27 +242,27 @@ public class MonkeyDevice {
     }
 
     public MonkeyView getViewByAccessibilityIds(Integer i, Integer j) {
-        IChimpView localIChimpView = this.chimpDevice.getView(By.accessibilityIds(i, j));
-        return new MonkeyView(localIChimpView);
+        IChimpView chimpView = this.chimpDevice.getView(By.accessibilityIds(i, j));
+        return new MonkeyView(chimpView);
     }
 
     public MonkeyView getViewById(String viewId) {
-        IChimpView localIChimpView = this.chimpDevice.getView(By.id(viewId));
-        return new MonkeyView(localIChimpView);
+        IChimpView chimpView = this.chimpDevice.getView(By.id(viewId));
+        return new MonkeyView(chimpView);
     }
 
     public ArrayList<MonkeyView> getViewsByText(String str) {
-        Collection<IChimpView> localCollection = this.chimpDevice.getViews(By.text(str));
-        ArrayList<MonkeyView> localArrayList = new ArrayList<MonkeyView>();
-        for (IChimpView localIChimpView : localCollection) {
-            localArrayList.add(new MonkeyView(localIChimpView));
+        Collection<IChimpView> chimpViews = this.chimpDevice.getViews(By.text(str));
+        ArrayList<MonkeyView> monkeyViews = new ArrayList<MonkeyView>();
+        for (IChimpView chimpView : chimpViews) {
+            monkeyViews.add(new MonkeyView(chimpView));
         }
-        return localArrayList;
+        return monkeyViews;
     }
 
     public ArrayList<String> getViewIdList() {
-        Collection<String> localCollection = this.chimpDevice.getViewIdList();
-        return new ArrayList<String>(localCollection);
+        Collection<String> idList = this.chimpDevice.getViewIdList();
+        return new ArrayList<String>(idList);
     }
 
     /**
@@ -339,78 +354,114 @@ public class MonkeyDevice {
         return this.chimpDevice.shell(cmd);
     }
 
+    /**
+     * Starts an Activity on this device by sending an Intent constructed from the supplied arguments.
+     */
     public void startActivity() {
-        String uri = null;
-        String action = null;
-        String data = null;
-        String mimetype = null;
-        Collection<String> categories = null;
-        Map<String, Object> extras = null;
-        String component = null;
-        int flags = 0;
-
-        this.chimpDevice.startActivity(uri, action, data, mimetype, categories, extras, component, flags);
+        startActivity(null, null, null, null, null, null, null, 0);
     }
 
+    /**
+     * Starts an Activity on this device by sending an Intent constructed from the supplied arguments.
+     *
+     * @param uri The URI for the Intent.
+     */
     public void startActivity(String uri) {
-        String action = null;
-        String data = null;
-        String mimetype = null;
-        Collection<String> categories = null;
-        Map<String, Object> extras = null;
-        String component = null;
-        int flags = 0;
-
-        this.chimpDevice.startActivity(uri, action, data, mimetype, categories, extras, component, flags);
+        startActivity(uri, null, null, null, null, null, null, 0);
     }
 
+    /**
+     * Starts an Activity on this device by sending an Intent constructed from the supplied arguments.
+     *
+     * @param uri    The URI for the Intent.
+     * @param action The action for the Intent.
+     */
     public void startActivity(String uri, String action) {
-        String data = null;
-        String mimetype = null;
-        Collection<String> categories = null;
-        Map<String, Object> extras = null;
-        String component = null;
-        int flags = 0;
-        this.chimpDevice.startActivity(uri, action, data, mimetype, categories, extras, component, flags);
+        startActivity(uri, action, null, null, null, null, null, 0);
     }
 
+    /**
+     * Starts an Activity on this device by sending an Intent constructed from the supplied arguments.
+     *
+     * @param uri    The URI for the Intent.
+     * @param action The action for the Intent.
+     * @param data   The data URI for the Intent.
+     */
     public void startActivity(String uri, String action, String data) {
-        String mimetype = null;
-        Collection<String> categories = null;
-        Map<String, Object> extras = null;
-        String component = null;
-        int flags = 0;
-        this.chimpDevice.startActivity(uri, action, data, mimetype, categories, extras, component, flags);
+        startActivity(uri, action, data, null, null, null, null, 0);
     }
 
-    public void startActivity(String uri, String action, String data, String mimetype) {
-        Collection<String> categories = null;
-        Map<String, Object> extras = null;
-        String component = null;
-        int flags = 0;
-        this.chimpDevice.startActivity(uri, action, data, mimetype, categories, extras, component, flags);
+    /**
+     * Starts an Activity on this device by sending an Intent constructed from the supplied arguments.
+     *
+     * @param uri      The URI for the Intent.
+     * @param action   The action for the Intent.
+     * @param data     The data URI for the Intent.
+     * @param mimeType The MIME type for the Intent.
+     */
+    public void startActivity(String uri, String action, String data, String mimeType) {
+        startActivity(uri, action, data, mimeType, null, null, null, 0);
     }
 
-    public void startActivity(String uri, String action, String data, String mimetype, Collection<String> categories) {
-        Map<String, Object> extras = null;
-        String component = null;
-        int flags = 0;
-        this.chimpDevice.startActivity(uri, action, data, mimetype, categories, extras, component, flags);
+    /**
+     * Starts an Activity on this device by sending an Intent constructed from the supplied arguments.
+     *
+     * @param uri        The URI for the Intent.
+     * @param action     The action for the Intent.
+     * @param data       The data URI for the Intent.
+     * @param mimeType   The MIME type for the Intent.
+     * @param categories An iterable data structure containing strings that define categories for the Intent.
+     */
+    public void startActivity(String uri, String action, String data, String mimeType, Collection<String> categories) {
+        startActivity(uri, action, data, mimeType, categories, null, null, 0);
     }
 
-    public void startActivity(String uri, String action, String data, String mimetype, Collection<String> categories, Map<String, Object> extras) {
-        String component = null;
-        int flags = 0;
-        this.chimpDevice.startActivity(uri, action, data, mimetype, categories, extras, component, flags);
+    /**
+     * Starts an Activity on this device by sending an Intent constructed from the supplied arguments.
+     *
+     * @param uri        The URI for the Intent.
+     * @param action     The action for the Intent.
+     * @param data       The data URI for the Intent.
+     * @param mimeType   The MIME type for the Intent.
+     * @param categories An iterable data structure containing strings that define categories for the Intent.
+     * @param extras     A dictionary of extra data for the Intent (see Intent.putExtra() for an example).
+     *                   The key for each dictionary item should be a string. The item's value can be any simple or structured data type.
+     */
+    public void startActivity(String uri, String action, String data, String mimeType, Collection<String> categories, Map<String, Object> extras) {
+        startActivity(uri, action, data, mimeType, categories, extras, null, 0);
     }
 
-    public void startActivity(String uri, String action, String data, String mimetype, Collection<String> categories, Map<String, Object> extras, String component) {
-        int flags = 0;
-        this.chimpDevice.startActivity(uri, action, data, mimetype, categories, extras, component, flags);
+    /**
+     * Starts an Activity on this device by sending an Intent constructed from the supplied arguments.
+     *
+     * @param uri        The URI for the Intent.
+     * @param action     The action for the Intent.
+     * @param data       The data URI for the Intent.
+     * @param mimeType   The MIME type for the Intent.
+     * @param categories An iterable data structure containing strings that define categories for the Intent.
+     * @param extras     A dictionary of extra data for the Intent (see Intent.putExtra() for an example).
+     *                   The key for each dictionary item should be a string. The item's value can be any simple or structured data type.
+     * @param component  The component for the Intent (see ComponentName). Using this argument will direct the Intent to a specific class within a specific Android package.
+     */
+    public void startActivity(String uri, String action, String data, String mimeType, Collection<String> categories, Map<String, Object> extras, String component) {
+        startActivity(uri, action, data, mimeType, categories, extras, component, 0);
     }
 
-    public void startActivity(String uri, String action, String data, String mimetype, Collection<String> categories, Map<String, Object> extras, String component, int flags) {
-        this.chimpDevice.startActivity(uri, action, data, mimetype, categories, extras, component, flags);
+    /**
+     * Starts an Activity on this device by sending an Intent constructed from the supplied arguments.
+     *
+     * @param uri        The URI for the Intent.
+     * @param action     The action for the Intent.
+     * @param data       The data URI for the Intent.
+     * @param mimeType   The MIME type for the Intent.
+     * @param categories An iterable data structure containing strings that define categories for the Intent.
+     * @param extras     A dictionary of extra data for the Intent (see Intent.putExtra() for an example).
+     *                   The key for each dictionary item should be a string. The item's value can be any simple or structured data type.
+     * @param component  The component for the Intent (see ComponentName). Using this argument will direct the Intent to a specific class within a specific Android package.
+     * @param flags      An iterable data structure containing flags that control how the Intent is handled.
+     */
+    public void startActivity(String uri, String action, String data, String mimeType, Collection<String> categories, Map<String, Object> extras, String component, int flags) {
+        this.chimpDevice.startActivity(uri, action, data, mimeType, categories, extras, component, flags);
     }
 
     /**
@@ -431,13 +482,26 @@ public class MonkeyDevice {
      * @param type The type of key event to send. The allowed values are {@link #DOWN}, {@link #UP}, and {@link #DOWN_AND_UP}
      */
     public void touch(int x, int y, String type) {
-        TouchPressType localTouchPressType = TouchPressType.fromIdentifier(type);
-        if (localTouchPressType == null) {
+        TouchPressType touchPressType = TouchPressType.fromIdentifier(type);
+        if (touchPressType == null) {
             LOG.warning(String.format("Invalid TouchPressType specified (%s) default used instead", type));
-
-            localTouchPressType = TouchPressType.DOWN_AND_UP;
+            touchPressType = TouchPressType.DOWN_AND_UP;
         }
-        this.chimpDevice.touch(x, y, localTouchPressType);
+        this.chimpDevice.touch(x, y, touchPressType);
+    }
+
+    /**
+     * Sends a touch event specified by type to the screen location specified by x and y
+     * @param touchPoint
+     * @param type The type of key event to send. The allowed values are {@link #DOWN}, {@link #UP}, and {@link #DOWN_AND_UP}
+     */
+    public void touch(Point touchPoint, String type) {
+        TouchPressType touchPressType = TouchPressType.fromIdentifier(type);
+        if (touchPressType == null) {
+            LOG.warning(String.format("Invalid TouchPressType specified (%s) default used instead", type));
+            touchPressType = TouchPressType.DOWN_AND_UP;
+        }
+        this.chimpDevice.touch(touchPoint.x, touchPoint.y, touchPressType);
     }
 
     /**
@@ -448,6 +512,15 @@ public class MonkeyDevice {
      */
     public void touch(int x, int y) {
         touch(x, y, DOWN_AND_UP);
+    }
+
+    /**
+     * Sends a touch event specified by type to the screen location specified by x and y
+     *
+     * @param touchPoint The Point on the screen to touch
+     */
+    public void touch(Point touchPoint) {
+        touch(touchPoint.x, touchPoint.y);
     }
 
     /**
