@@ -11,6 +11,7 @@ import java.util.Map;
 import java.util.logging.Logger;
 
 public class MonkeyDevice {
+
     public static final String DOWN = TouchPressType.DOWN.getIdentifier();
     public static final String UP = TouchPressType.UP.getIdentifier();
     public static final String DOWN_AND_UP = TouchPressType.DOWN_AND_UP.getIdentifier();
