@@ -7,7 +7,7 @@ variables:
 
 build:
   stage: build
-  script: ./gradlew --build-cache assemble
+  script: ./gradlew build
   cache:
     key: "$CI_COMMIT_REF_NAME"
     policy: push
@@ -18,7 +18,7 @@ build:
 
 test:
   stage: test
-  script: ./gradlew check
+  script: ./gradlew test
   cache:
     key: "$CI_COMMIT_REF_NAME"
     policy: pull
