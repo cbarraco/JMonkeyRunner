@@ -1,23 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AntConfiguration">
-    <defaultAnt bundledAnt="true" />
-  </component>
   <component name="ArtifactManager">
     <artifact type="jar" name="JMonkeyRunner">
       <output-path>$PROJECT_DIR$/out/artifacts/JMonkeyRunner</output-path>
       <root id="archive" name="JMonkeyRunner.jar">
         <element id="module-output" name="JMonkeyRunner" />
-        <element id="file-copy" path="$PROJECT_DIR$/lib/chimpchat.jar" />
-        <element id="file-copy" path="$PROJECT_DIR$/lib/guavalib.jar" />
-        <element id="file-copy" path="$PROJECT_DIR$/lib/ddmlib.jar" />
-        <element id="file-copy" path="$PROJECT_DIR$/lib/sdklib.jar" />
+        <element id="file-copy" path="$PROJECT_DIR$/libs/chimpchat.jar" />
+        <element id="file-copy" path="$PROJECT_DIR$/libs/guavalib.jar" />
+        <element id="file-copy" path="$PROJECT_DIR$/libs/ddmlib.jar" />
+        <element id="file-copy" path="$PROJECT_DIR$/libs/sdklib.jar" />
       </root>
     </artifact>
   </component>
   <component name="CompilerConfiguration">
-    <option name="DEFAULT_COMPILER" value="Javac" />
-    <resourceExtensions />
     <wildcardResourcePatterns>
       <entry name="?*.properties" />
       <entry name="?*.xml" />
@@ -30,23 +25,37 @@
       <entry name="?*.tld" />
       <entry name="?*.ftl" />
     </wildcardResourcePatterns>
-    <annotationProcessing>
-      <profile default="true" name="Default" enabled="false">
-        <processorPath useClasspath="true" />
-      </profile>
-    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="jmonkeyrunner_main" target="1.8" />
+      <module name="jmonkeyrunner_test" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
-  <component name="CopyrightManager" default="">
-    <module2copyright />
-  </component>
+  <component name="CopyrightManager" default="" />
   <component name="DependencyValidationManager">
     <option name="SKIP_IMPORT_STATEMENTS" value="false" />
   </component>
-  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
-  <component name="EntryPointsManager">
-    <entry_points version="2.0" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+          </set>
+        </option>
+        <option name="useAutoImport" value="true" />
+      </GradleProjectSettings>
+    </option>
   </component>
   <component name="IdProvider" IDEtalkID="4DD31D6AF6779DBEBEFD6990CEF49DC7" />
+  <component name="InspectionProjectProfileManager">
+    <profile version="1.0">
+      <option name="myName" value="Project Default" />
+    </profile>
+    <version value="1.0" />
+  </component>
   <component name="JavadocGenerationManager">
     <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/doc" />
     <option name="OPTION_SCOPE" value="protected" />
@@ -190,12 +199,15 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JMonkeyRunner.iml" filepath="$PROJECT_DIR$/JMonkeyRunner.iml" />
       <module fileurl="file://$PROJECT_DIR$/JMonkeyTest/JMonkeyTest.iml" filepath="$PROJECT_DIR$/JMonkeyTest/JMonkeyTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jmonkeyrunner.iml" filepath="$PROJECT_DIR$/jmonkeyrunner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jmonkeyrunner_main.iml" filepath="$PROJECT_DIR$/jmonkeyrunner_main.iml" group="jmonkeyrunner" />
+      <module fileurl="file://$PROJECT_DIR$/jmonkeyrunner_test.iml" filepath="$PROJECT_DIR$/jmonkeyrunner_test.iml" group="jmonkeyrunner" />
     </modules>
   </component>
   <component name="ProjectResources">
     <default-html-doctype>http://www.w3.org/1999/xhtml</default-html-doctype>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" assert-keyword="true" jdk-15="true" project-jdk-name="1.7" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
   <component name="VcsDirectoryMappings">
@@ -203,4 +215,3 @@
   </component>
   <component name="WebServicesPlugin" addRequiredLibraries="true" />
 </project>
-
